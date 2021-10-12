@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinchirillo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a982a4dbd7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Pinchirillo v0.0.5</h1>
+    <section class="toolbar">
+
+        <div class="form-type tool">
+            <p class="toolbar__text"><b>formas</b></p>
+            <div class="form-container">
+                <div class="form-unit">
+                    <label for="circle">🔴</label>
+                    <input type="radio" id="circle" name="formtype" value="circle" checked>
+                </div>
+                <div class="form-unit">
+                    <label for="square">🟥</label>
+                    <input type="radio" id="square" name="formtype" value="square">
+                </div>
+                <div class="form-unit">
+                    <label for="line">📏</label>
+                    <input type="radio" id="line" name="formtype" value="line">
+                </div>
+            </div>
+            <div>
+                <p><b>solido</b></p>
+                <input class="solidStroke" type="checkbox" checked>
+            </div>
+        </div>
+
+        <div class="size tool">
+            <p class="toolbar__text"><b>tamaño</b></p>
+            <i class="fas fa-circle size__dot"></i>
+            <div>
+                <input class="strokeWidth" type="range" min="1" max="100" value="20">
+                <label class="strokeWidth__value" for="color-picker">20</label>
+            </div>
+        </div>
+
+        <div class="colors__container tool">
+            <p class="toolbar__text"><b>colores</b></p>
+            <div class="colors__selector">
+                <input class="color-picker" type="color">
+                <p class="color red">🔴</p>
+                <p class="color orange">🟠</p>
+                <p class="color yellow">🟡</p>
+                <p class="color green">🟢</p>
+                <p class="color blue">🔵</p>
+                <p class="color violet">🟣</p>
+                <p class="color brown">🟤</p>
+                <p class="color black">⚫</p>
+                <p class="color white">⚪</p>
+            </div>
+        </div>
+    </section>
+    <canvas class="canvas" width="900" height="500"></canvas>
+    <script src="./index.js"></script>
+</body>
+
+</html>

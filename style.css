@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  justify-content: space-evenly;
+  font-family: "Ubuntu", sans-serif;
+  background-color: cadetblue;
+}
+
+.canvas {
+  border: 10px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  margin: 4vh 0;
+}
+
+.colors__selector {
+  display: flex;
+  align-items: center;
+}
+
+.form-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3px;
+}
+
+.form-container {
+  display: flex;
+}
+.color {
+  margin: 0 3px;
+}
+
+.color:hover {
+  cursor: pointer;
+}
+
+.toolbar {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  width: 900px;
+}
+
+.toolbar__text {
+  margin-bottom: auto;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(150, 210, 211);
+  border-radius: 5px;
+  margin: 1vw;
+  padding: 0 5px;
+}
