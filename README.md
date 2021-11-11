@@ -5,5 +5,5 @@
 El objetivo era experimentar y aprender a usar un poco el canvas, tratando de hacer algo simple para dibujar
 
 
-<img src="https://imgur.com/zB7ran5.png" width="400">
+<img src="https://imgur.com/0dOaRyU.png" width="800">
 
